@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CEE89A21EB1EED400C10DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE89A11EB1EED400C10DFD /* main.m */; };
+		6CEE89A51EB1EED400C10DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE89A41EB1EED400C10DFD /* AppDelegate.m */; };
+		6CEE89A81EB1EED400C10DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE89A71EB1EED400C10DFD /* ViewController.m */; };
+		6CEE89AB1EB1EED400C10DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE89A91EB1EED400C10DFD /* Main.storyboard */; };
+		6CEE89AD1EB1EED400C10DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE89AC1EB1EED400C10DFD /* Assets.xcassets */; };
+		6CEE89B01EB1EED400C10DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEE89AE1EB1EED400C10DFD /* LaunchScreen.storyboard */; };
+		6CEE89BB1EB1EED400C10DFD /* bainbianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE89BA1EB1EED400C10DFD /* bainbianTests.m */; };
+		6CEE89C61EB1EED400C10DFD /* bainbianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE89C51EB1EED400C10DFD /* bainbianUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CEE89B71EB1EED400C10DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEE89951EB1EED400C10DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEE899C1EB1EED400C10DFD;
+			remoteInfo = bainbian;
+		};
+		6CEE89C21EB1EED400C10DFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CEE89951EB1EED400C10DFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CEE899C1EB1EED400C10DFD;
+			remoteInfo = bainbian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CEE899D1EB1EED400C10DFD /* bainbian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bainbian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEE89A11EB1EED400C10DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CEE89A31EB1EED400C10DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CEE89A41EB1EED400C10DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CEE89A61EB1EED400C10DFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CEE89A71EB1EED400C10DFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CEE89AA1EB1EED400C10DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CEE89AC1EB1EED400C10DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CEE89AF1EB1EED400C10DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CEE89B11EB1EED400C10DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEE89B61EB1EED400C10DFD /* bainbianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bainbianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEE89BA1EB1EED400C10DFD /* bainbianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bainbianTests.m; sourceTree = "<group>"; };
+		6CEE89BC1EB1EED400C10DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEE89C11EB1EED400C10DFD /* bainbianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bainbianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEE89C51EB1EED400C10DFD /* bainbianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bainbianUITests.m; sourceTree = "<group>"; };
+		6CEE89C71EB1EED400C10DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEE899A1EB1EED400C10DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89B31EB1EED400C10DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89BE1EB1EED400C10DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CEE89941EB1EED400C10DFD = {
+			isa = PBXGroup;
+			children = (
+				6CEE899F1EB1EED400C10DFD /* bainbian */,
+				6CEE89B91EB1EED400C10DFD /* bainbianTests */,
+				6CEE89C41EB1EED400C10DFD /* bainbianUITests */,
+				6CEE899E1EB1EED400C10DFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CEE899E1EB1EED400C10DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE899D1EB1EED400C10DFD /* bainbian.app */,
+				6CEE89B61EB1EED400C10DFD /* bainbianTests.xctest */,
+				6CEE89C11EB1EED400C10DFD /* bainbianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CEE899F1EB1EED400C10DFD /* bainbian */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE89A31EB1EED400C10DFD /* AppDelegate.h */,
+				6CEE89A41EB1EED400C10DFD /* AppDelegate.m */,
+				6CEE89A61EB1EED400C10DFD /* ViewController.h */,
+				6CEE89A71EB1EED400C10DFD /* ViewController.m */,
+				6CEE89A91EB1EED400C10DFD /* Main.storyboard */,
+				6CEE89AC1EB1EED400C10DFD /* Assets.xcassets */,
+				6CEE89AE1EB1EED400C10DFD /* LaunchScreen.storyboard */,
+				6CEE89B11EB1EED400C10DFD /* Info.plist */,
+				6CEE89A01EB1EED400C10DFD /* Supporting Files */,
+			);
+			path = bainbian;
+			sourceTree = "<group>";
+		};
+		6CEE89A01EB1EED400C10DFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE89A11EB1EED400C10DFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CEE89B91EB1EED400C10DFD /* bainbianTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE89BA1EB1EED400C10DFD /* bainbianTests.m */,
+				6CEE89BC1EB1EED400C10DFD /* Info.plist */,
+			);
+			path = bainbianTests;
+			sourceTree = "<group>";
+		};
+		6CEE89C41EB1EED400C10DFD /* bainbianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE89C51EB1EED400C10DFD /* bainbianUITests.m */,
+				6CEE89C71EB1EED400C10DFD /* Info.plist */,
+			);
+			path = bainbianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CEE899C1EB1EED400C10DFD /* bainbian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEE89CA1EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbian" */;
+			buildPhases = (
+				6CEE89991EB1EED400C10DFD /* Sources */,
+				6CEE899A1EB1EED400C10DFD /* Frameworks */,
+				6CEE899B1EB1EED400C10DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bainbian;
+			productName = bainbian;
+			productReference = 6CEE899D1EB1EED400C10DFD /* bainbian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CEE89B51EB1EED400C10DFD /* bainbianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEE89CD1EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbianTests" */;
+			buildPhases = (
+				6CEE89B21EB1EED400C10DFD /* Sources */,
+				6CEE89B31EB1EED400C10DFD /* Frameworks */,
+				6CEE89B41EB1EED400C10DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEE89B81EB1EED400C10DFD /* PBXTargetDependency */,
+			);
+			name = bainbianTests;
+			productName = bainbianTests;
+			productReference = 6CEE89B61EB1EED400C10DFD /* bainbianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CEE89C01EB1EED400C10DFD /* bainbianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEE89D01EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbianUITests" */;
+			buildPhases = (
+				6CEE89BD1EB1EED400C10DFD /* Sources */,
+				6CEE89BE1EB1EED400C10DFD /* Frameworks */,
+				6CEE89BF1EB1EED400C10DFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CEE89C31EB1EED400C10DFD /* PBXTargetDependency */,
+			);
+			name = bainbianUITests;
+			productName = bainbianUITests;
+			productReference = 6CEE89C11EB1EED400C10DFD /* bainbianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CEE89951EB1EED400C10DFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "God bless never bug";
+				TargetAttributes = {
+					6CEE899C1EB1EED400C10DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L75BZ5L739;
+						ProvisioningStyle = Automatic;
+					};
+					6CEE89B51EB1EED400C10DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L75BZ5L739;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CEE899C1EB1EED400C10DFD;
+					};
+					6CEE89C01EB1EED400C10DFD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L75BZ5L739;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CEE899C1EB1EED400C10DFD;
+					};
+				};
+			};
+			buildConfigurationList = 6CEE89981EB1EED400C10DFD /* Build configuration list for PBXProject "bainbian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CEE89941EB1EED400C10DFD;
+			productRefGroup = 6CEE899E1EB1EED400C10DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CEE899C1EB1EED400C10DFD /* bainbian */,
+				6CEE89B51EB1EED400C10DFD /* bainbianTests */,
+				6CEE89C01EB1EED400C10DFD /* bainbianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CEE899B1EB1EED400C10DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEE89B01EB1EED400C10DFD /* LaunchScreen.storyboard in Resources */,
+				6CEE89AD1EB1EED400C10DFD /* Assets.xcassets in Resources */,
+				6CEE89AB1EB1EED400C10DFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89B41EB1EED400C10DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89BF1EB1EED400C10DFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CEE89991EB1EED400C10DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEE89A81EB1EED400C10DFD /* ViewController.m in Sources */,
+				6CEE89A51EB1EED400C10DFD /* AppDelegate.m in Sources */,
+				6CEE89A21EB1EED400C10DFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89B21EB1EED400C10DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEE89BB1EB1EED400C10DFD /* bainbianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CEE89BD1EB1EED400C10DFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CEE89C61EB1EED400C10DFD /* bainbianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CEE89B81EB1EED400C10DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEE899C1EB1EED400C10DFD /* bainbian */;
+			targetProxy = 6CEE89B71EB1EED400C10DFD /* PBXContainerItemProxy */;
+		};
+		6CEE89C31EB1EED400C10DFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CEE899C1EB1EED400C10DFD /* bainbian */;
+			targetProxy = 6CEE89C21EB1EED400C10DFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CEE89A91EB1EED400C10DFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEE89AA1EB1EED400C10DFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CEE89AE1EB1EED400C10DFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEE89AF1EB1EED400C10DFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CEE89C81EB1EED400C10DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CEE89C91EB1EED400C10DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CEE89CB1EB1EED400C10DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CEE89CC1EB1EED400C10DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CEE89CE1EB1EED400C10DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bainbian.app/bainbian";
+			};
+			name = Debug;
+		};
+		6CEE89CF1EB1EED400C10DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bainbian.app/bainbian";
+			};
+			name = Release;
+		};
+		6CEE89D11EB1EED400C10DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bainbian;
+			};
+			name = Debug;
+		};
+		6CEE89D21EB1EED400C10DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L75BZ5L739;
+				INFOPLIST_FILE = bainbianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.bainbianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bainbian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CEE89981EB1EED400C10DFD /* Build configuration list for PBXProject "bainbian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEE89C81EB1EED400C10DFD /* Debug */,
+				6CEE89C91EB1EED400C10DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEE89CA1EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEE89CB1EB1EED400C10DFD /* Debug */,
+				6CEE89CC1EB1EED400C10DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CEE89CD1EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEE89CE1EB1EED400C10DFD /* Debug */,
+				6CEE89CF1EB1EED400C10DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CEE89D01EB1EED400C10DFD /* Build configuration list for PBXNativeTarget "bainbianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEE89D11EB1EED400C10DFD /* Debug */,
+				6CEE89D21EB1EED400C10DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CEE89951EB1EED400C10DFD /* Project object */;
+}
